@@ -1,0 +1,60 @@
+{
+  "formulas": [
+    {
+      "id": "1",
+      "formula_template": "x^2 + y^2",
+      "parameter_names": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "id": "2",
+      "formula_template": "a + b",
+      "parameter_names": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "6854",
+      "formula_template": "5*x-5645-y",
+      "parameter_names": [
+        "x",
+        "y"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "id": "6c61",
+      "user": "3",
+      "formula": "2",
+      "parameters": {
+        "a": "1",
+        "b": "1"
+      },
+      "result": 2
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "password1",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "user2",
+      "password": "password2",
+      "role": "user"
+    }
+  ]
+}

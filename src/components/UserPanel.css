@@ -1,0 +1,45 @@
+.user-panel {
+    background-color: #f0f8ff; /* Светлый фон для панели */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.user-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.formula-list {
+    margin-bottom: 20px;
+    max-height: 200px; /* Ограничиваем высоту списка */
+    overflow-y: auto; /* Добавляем прокрутку */
+}
+
+.parameter-input {
+    margin: 20px 0;
+}
+
+.request-history {
+    margin-top: 20px;
+}
+
+.button {
+    display: block; /* Кнопки будут занимать всю ширину */
+    width: 100%; /* Ширина кнопки 100% */
+    padding: 10px; /* Отступы для кнопок */
+    margin: 5px 0; /* Отступы между кнопками */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 4px; /* Округленные углы */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s; /* Плавный переход для фона */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Цвет фона при наведении */
+}
